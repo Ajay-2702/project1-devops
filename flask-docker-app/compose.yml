@@ -1,0 +1,8 @@
+version: "1.o"
+services:
+  hellow_world:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5001:5000
